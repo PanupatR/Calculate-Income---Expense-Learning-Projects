@@ -1,0 +1,115 @@
+/*Transction.jsx Section*/
+.transaction {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.transaction li {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  margin: 10px 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+}
+/*Transction.jsx Section*/
+
+/*FromComponet.jsx Section*/
+.form-control {
+  margin: 10px 0;
+}
+label {
+  display: inline;
+  color: #3a1078;
+  font-weight: 600;
+}
+
+input {
+  display: block;
+  border: 1px solid #3a1078;
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 8px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  background-color: #3a1078;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  margin: 10px 0 30px;
+  padding: 8px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+/*FromComponet.jsx Section*/
+
+/*Item.jsx section*/
+.expense {
+  background-color: #ffaaa6;
+  border-left: 10px solid #ff0032;
+  color: #3a1078;
+}
+
+.income {
+  background-color: #dcedc2;
+  border-left: 10px solid #38e54d;
+  color: #3a1078;
+}
+/*Item.jsx section*/
+
+/*ReportComponet.jsx*/
+h3 {
+  color: #3a1078;
+}
+.balance,
+.total-balance {
+  text-align: center;
+  color: #3a1078;
+}
+.report-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 15px 0;
+}
+.report-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.container-right {
+  border-top: 4px solid #ff0032;
+  background-color: #ffaaa6;
+  width: 100%;
+}
+
+.container-left {
+  border-top: 4px solid #38e54d;
+  background-color: #dcedc2;
+  width: 100%;
+}
+
+.container-left {
+  border-radius: 0 2px 2px 0;
+}
+.container-right {
+  border-radius: 2px 0 0 px;
+}
+
+.report {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+/*ReportComponet.jsx*/
